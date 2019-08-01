@@ -14,7 +14,7 @@
   "author": "",
   "license": "ISC",
   "homepage": "https://github.com/carlomigueldy/carlomigueldy",
-  "bugs": {
-    "url": "https://github.com/carlomigueldy/carlomigueldy/issues"
+  "dependencies": {
+    "gh-pages": "^2.1.0"
   }
 }
