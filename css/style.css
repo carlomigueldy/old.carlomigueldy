@@ -6,11 +6,10 @@ body, html {
 }
 
 .bg { 
-    /* The image used */
-    background-image: url("../img/bg-img.jpg");
+    /* background-image: url("../img/bg-img.jpg"); */
+    background-image: url('https://images.pexels.com/photos/1194713/pexels-photo-1194713.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
     /* Full height */
     height: 100%; 
-
     /* Center and scale the image nicely */
     background-position: center;
     background-repeat: no-repeat;
@@ -25,6 +24,16 @@ body, html {
 }
 .bg-3 {
     background-color: blue;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.bg-4 {
+    background-color: #fff;
+    color: black;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 .overlay {
     background-color: rgba(0, 0, 0, 0.5);
@@ -37,10 +46,21 @@ hr {
     border-radius: 10%;
 }
 .about-me-head {
-    padding: 10rem;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
     font-size: 2rem;
 }
 .about-me-content {
     /* padding: 10rem; */
-    padding-top: 10rem;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+.contact-me-head {
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    font-size: 2rem;
+}
+.contact-me-info {
+    margin-top: 5rem;
+    margin-bottom: 5rem;
 }
