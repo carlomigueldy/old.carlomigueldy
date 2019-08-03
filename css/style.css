@@ -1,0 +1,46 @@
+body, html {
+    height: 100%;
+    /* font-family: 'Fira Code', monospace; */
+    font-family: 'Montserrat', sans-serif;
+    /* font-family: 'Playfair Display', serif; */
+}
+
+.bg { 
+    /* The image used */
+    background-image: url("../img/bg-img.jpg");
+    /* Full height */
+    height: 100%; 
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.bg-2 {
+    background-color: #fff;
+    color: black;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.bg-3 {
+    background-color: blue;
+}
+.overlay {
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 100%;
+}
+hr {
+    background-color: red;	
+    width: 5%;
+    height: 1px;
+    border-radius: 10%;
+}
+.about-me-head {
+    padding: 10rem;
+    font-size: 2rem;
+}
+.about-me-content {
+    /* padding: 10rem; */
+    padding-top: 10rem;
+}
