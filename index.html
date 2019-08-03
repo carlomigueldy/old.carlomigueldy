@@ -6,49 +6,115 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 	<link href="https://fonts.googleapis.com/css?family=Fira+Code&display=swap" rel="stylesheet">
-	<link rel="stylesheet" href="css/style.css">
+	<link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Playfair+Display&display=swap" rel="stylesheet">
+	<script src="https://kit.fontawesome.com/276f65f579.js"></script>
 	<title>Carlo Miguel Dy</title>
 	<style>
 	body, html {
-    height: 100%;
-    color: white;
-    font-family: 'Fira Code', monospace;
+		height: 100%;
+		/* font-family: 'Fira Code', monospace; */
+		font-family: 'Montserrat', sans-serif;
+		/* font-family: 'Playfair Display', serif; */
 	}
 
 	.bg { 
-	/* The image used */
-	background-image: url("img/bg-img.jpg");
-	background-color: rgba(0, 0, 0, 0.7);
-	/* Full height */
-	height: 100%; 
+		/* The image used */
+		background-image: url("img/bg-img.jpg");
+		/* Full height */
+		height: 100%; 
 
-	/* Center and scale the image nicely */
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;
+		/* Center and scale the image nicely */
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+	.bg-2 {
+		background-color: #fff;
+	}
+	.overlay {
+		background-color: rgba(0, 0, 0, 0.5);
+		height: 100%;
 	}
 	hr {
-		background-color: white;	
-		width: 30%;
+		background-color: red;	
+		width: 5%;
 		height: 1px;
-		border-radius: 30%;
-	}
-	#content {
-		background-color: rgba(0, 0, 0, 0.5);
-		border-radius: 3px;
-		padding-top: 10px;
-		padding-bottom: 15px;
+		border-radius: 10%;
 	}
 </style>
 </head>
-<body class="bg">
-	<div class="container">
-		<div class="row text-center" style="padding-top: 10rem">
-			<div class="col-lg-12" id="content">
-				<span class="display-1">Carlo Miguel Dy</span>
-				<hr>
-				<p>I am a self-taught Fullstack Laravel Developer</p>
-				<div class="mt-2 badge badge-warning"><h2>Website Work in Progress ...</h2></div>
+<body>
+	<div class="bg">
+		<div class="overlay">
+			<div class="container">
+				<div class="row" style="margin-bottom: 10rem;"></div>
+				<div class="row justify-content-center">
+					<div class="col align-self-center">
+						<div class="card-body text-white">
+							<h2 class="display-5">Hello my name is,</h2>
+							<h1 class="display-3">Carlo Miguel Dy</h1>
+							<p>I am a web developer from Philippines and currently living in Maigo, Lanao del Norte. I enjoy building web apps.</p>
+							<h2>
+								<a href="https://github.com/carlomigueldy" class="text-white m-2" target="_blank"><i class="fab fa-github"></i></a>
+								<a href="https://www.linkedin.com/in/carlo-miguel-dy-168797181/" class="text-white m-2" target="_blank"><i class="fab fa-linkedin"></i></a>
+								<a href="https://www.instagram.com/carlomigueldy/" class="text-white m-2" target="_blank"><i class="fab fa-instagram"></i></a>
+								<a href="https://www.facebook.com/polarixdy" class="text-white m-2" target="_blank"><i class="fab fa-facebook"></i></a>
+								<a href="https://twitter.com/CarloMiguelDy" class="text-white m-2" target="_blank"><i class="fab fa-twitter"></i></a>
+							</h2>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="bg-2 pt-5 pb-5">
+		<div class="container">
+			<div class="text-center mb-5"><h1>Specialization</h1></div>
+			<div class="row">
+				<div class="col">
+					<div class="card-deck">
+						<div class="card shadow border-0">
+							<div class="card-header text-center border-0">
+								<h4>
+									<div><i class="fas fa-code"></i></div>
+									<div>Web Development</div>
+								</h4>
+							</div>
+							<div class="card-body">
+								<p class="card-text">
+									I am capable of building Content Management Systems with user authentication & authorization. 
+								</p>
+							</div>
+						</div>
+						<div class="card shadow border-0">
+							<div class="card-header text-center border-0">
+								<h4>
+									<div><i class="fas fa-database"></i></div>
+									<div>Database Design</div>
+								</h4>
+							</div>
+							<div class="card-body">
+								<p class="card-text">
+									I am currently taking up a degree in Information Technology, focusing on Database Systems at <a href="https://msuiit.edu.ph/" target="_blank">Mindanao State University - Iligan Institude of Technology</a>. I plan, design and implement Databases that are secured, maintainable and scalable.
+								</p>
+							</div>
+						</div>
+						<div class="card shadow border-0">
+							<div class="card-header text-center border-0">
+								<h4>
+									<div><i class="fas fa-ruler"></i></div>
+									<div>UI / UX Design</div>
+								</h4>
+							</div>
+							<div class="card-body">
+								<p class="card-text">
+									I am not a full pledged web designer but I am well aware of most of the design principles to make user-friendly interfaces.
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
 			</div>
 		</div>
 	</div>
