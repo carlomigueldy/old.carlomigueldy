@@ -71,13 +71,33 @@ a:hover {
     background-position: center;
 }
 
-.bg-4 {
+.bg-4 { 
+    /* background-image: url("../img/bg-img.jpg"); */
+    background-image: url('https://images.pexels.com/photos/97077/pexels-photo-97077.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+    /* Full height */
+    height: 20%; 
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bg-footer {
     background-color: #313234;
     color: #fff;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
 }
+
+.bg-5 {
+    background-color: #5060EF;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
 
 .overlay {
     background-color: rgba(0, 0, 0, 0.5);
