@@ -1,8 +1,48 @@
 body, html {
     height: 100%;
     /* font-family: 'Fira Code', monospace; */
-    font-family: 'Montserrat', sans-serif;
+    /* font-family: 'Montserrat', sans-serif; */
+    font-family: 'Blinker', sans-serif;
     /* font-family: 'Playfair Display', serif; */
+}
+
+.text-style {
+    /* font-family: 'Fjalla One', sans-serif; */
+    /* font-family: 'Righteous', cursive; */
+    font-family: 'Bree Serif', serif;
+}
+
+.my-name {
+    font-size: 6vw;
+}
+
+.my-resume {
+    padding: 10px;
+    background-color: #5060EF;
+    border: 0;
+    color: #fff;
+    border-radius: 30px;
+}
+.my-resume:hover {
+    color: #5060EF;
+    background-color: #fff;
+    transition: all .2s ease-in-out;
+    transform: scale(1.1);
+}
+
+.my-hello {
+    font-size: 3vw;
+    padding-bottom: 0;
+    margin-bottom: 0;
+    color: #6D7BD7;
+}
+
+a {
+    color: #5060EF;
+}
+
+a:hover {
+    color: #fff;
 }
 
 .bg { 
@@ -15,51 +55,60 @@ body, html {
     background-repeat: no-repeat;
     background-size: cover;
 }
+
 .bg-2 {
-    background-color: #fff;
-    color: black;
+    background-color: #313234;
+    color: #fff;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
 }
+
 .bg-3 {
-    background-color: blue;
+    background-color: #5060EF;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
 }
+
 .bg-4 {
-    background-color: #fff;
-    color: black;
+    background-color: #313234;
+    color: #fff;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
 }
+
 .overlay {
     background-color: rgba(0, 0, 0, 0.5);
     height: 100%;
 }
+
 hr {
     background-color: red;	
     width: 5%;
     height: 1px;
     border-radius: 10%;
 }
+
 .about-me-head {
     margin-top: 5rem;
     margin-bottom: 5rem;
     font-size: 2rem;
 }
+
 .about-me-content {
     /* padding: 10rem; */
     margin-top: 5rem;
     margin-bottom: 5rem;
 }
+
 .contact-me-head {
     margin-top: 5rem;
     margin-bottom: 5rem;
     font-size: 2rem;
 }
+
 .contact-me-info {
     margin-top: 5rem;
     margin-bottom: 5rem;
