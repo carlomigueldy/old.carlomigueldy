@@ -22,11 +22,11 @@ body, html {
     border: 0;
     color: #fff;
     border-radius: 30px;
+    transition: all 1s;
 }
 .my-resume:hover {
     color: #5060EF;
     background-color: #fff;
-    transition: all .2s ease-in-out;
     transform: scale(1.1);
 }
 
@@ -39,10 +39,12 @@ body, html {
 
 a {
     color: #5060EF;
+    transition: all 1s;
 }
 
 a:hover {
     color: #fff;
+    transform: scale(1.2)
 }
 
 .bg { 
@@ -54,6 +56,7 @@ a:hover {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    background-attachment: fixed;
 }
 
 .bg-2 {
@@ -80,6 +83,7 @@ a:hover {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    background-attachment: fixed;
 }
 
 .bg-footer {
